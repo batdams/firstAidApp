@@ -11,10 +11,13 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 }*/
+body {
+    overflow-x: hidden;
+}
 section {
     width: 200%; /* Ajustez cette valeur pour contrôler l'étendue du débordement */
     white-space: nowrap; /* Empêche le texte de revenir à la ligne */
-    overflow-x: scroll;
+    overflow-x: auto;
 }
 .background {
     position: fixed;
@@ -25,6 +28,7 @@ section {
     background-image: url('pictures/Gare.png'); /* Remplacez par le chemin de votre image */
     background-repeat: no-repeat;
     background-size: cover;
+    pointer-events: none;
     z-index: -1; /* Place la `div` en arrière-plan */
 }
 /*
