@@ -4,13 +4,13 @@
     box-sizing: border-box; /* Ajuste la taille totale en tenant compte des padding et border */
 }
 
-/*body {
-    background-image: url('pictures/studioDrake.jpg');
+body {
+    background-image: url('pictures/Gare.png');
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}*/
+}
 section {
     width: 200%; /* Ajustez cette valeur pour contrôler l'étendue du débordement */
     white-space: nowrap; /* Empêche le texte de revenir à la ligne */
@@ -20,7 +20,6 @@ section {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
     height: 100vh;
     background-image: url('pictures/Gare.png'); /* Remplacez par le chemin de votre image */
     background-repeat: no-repeat;
