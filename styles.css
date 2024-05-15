@@ -1,0 +1,37 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ajuste la taille totale en tenant compte des padding et border */
+}
+
+/*body {
+    background-image: url('pictures/studioDrake.jpg');
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}*/
+section {
+    width: 200%; /* Ajustez cette valeur pour contrôler l'étendue du débordement */
+    white-space: nowrap; /* Empêche le texte de revenir à la ligne */
+    overflow-x: scroll;
+}
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('pictures/Gare.png'); /* Remplacez par le chemin de votre image */
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1; /* Place la `div` en arrière-plan */
+}
+/*
+.imgStudioDrake {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vh;
+    height: 100vh;
+}*/
