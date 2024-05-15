@@ -4,26 +4,16 @@
     box-sizing: border-box; /* Ajuste la taille totale en tenant compte des padding et border */
 }
 
-body {
-    background-image: url('pictures/Gare.png');
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
 section {
-    width: 200%; /* Ajustez cette valeur pour contrôler l'étendue du débordement */
     white-space: nowrap; /* Empêche le texte de revenir à la ligne */
     overflow-x: scroll;
+    position: relative;
+    z-index: 1;
 }
 .background {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
-    height: 100vh;
-    background-image: url('pictures/Gare.png'); /* Remplacez par le chemin de votre image */
-    background-repeat: no-repeat;
-    background-size: cover;
     z-index: -1; /* Place la `div` en arrière-plan */
 }
 /*
